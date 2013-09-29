@@ -1,0 +1,19 @@
+body {
+	background: black;
+	text-align:center;
+}
+
+img {
+	border: 7px solid #ccc;
+}
+
+h1 {
+	font-size: 40px;
+	color: white;
+	width: 600px;
+	height: 50px;
+	padding-top: 15px;
+	background: gray;
+	margin-left: auto;
+	margin-right: auto;
+}
