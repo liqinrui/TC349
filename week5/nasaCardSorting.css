@@ -5,26 +5,16 @@ body {
 
 h1 {
 	font-family: Helvetica ;
-	font-size: 50px;
+	font-size: 60px;
 	text-align: center;
+	margin-top:50px;
 }
 
-#nav {
-	margin-left: 100px;
-	background-color:white;
-}
-#nav li{
-	display: block;
-	float: left;
-	margin-left: 10px;
-	margin-right: 10px;
-	font-size: 30px;
-	
-
-}
-a:link {
-	background-color: gray;
-	padding: 10px;
-	text-decoration: none;
+.people {
+	padding-top:50px;
+	font-size:30px;
 }
 
+table {
+	margin:0 auto;
+}
