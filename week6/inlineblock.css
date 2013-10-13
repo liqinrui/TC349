@@ -1,0 +1,16 @@
+body {
+	background: url(sandpaper.png);
+}
+
+.wrap {
+	margin: 0 5%;
+}
+
+article {
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+	background: #f3f3f3;
+	opacity: .7;
+	display: inline-block;
+}
