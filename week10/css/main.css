@@ -154,22 +154,6 @@ article {
 	border-color: #aeccf9;
 }
 
-nav ul{
-	margin: 30px 0 0 40px;
-}
-
-nav a{
-	color: #424242;
-	text-decoration: none;
-	display: block;
-	padding: 10px;
-	border-top: 1px solid #e3e3e3;
-}
-
-nav a:hover {
-	background: #e3e3e3 ;
-}
-
 
 /* ==========================================================================
    Helper classes
@@ -278,14 +262,8 @@ nav a:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media (max-width: 600px) {
-	nav {
-		float: none;
-		width: auto;
-	}
-	article {
-		margin: 20px;
-	}
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
