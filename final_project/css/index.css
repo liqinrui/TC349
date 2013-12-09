@@ -49,71 +49,22 @@ a.btn {
 }
 
 .personal {
-	height: 100%;
 	width: 85%;
-	position: relative;
-	left: 7.5%;
 	background-color: #e6e6e6;
 	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	border-bottom: #ccc solid 10px;
-	float: left;
 }
-
-.personal_intro {
-	list-style: none;
-	display: inline;
-	float: left;
+.personal ul {
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;
 }
-
 .personal_intro li {
-	float: left;
-}
-
-.personal_intro img {
-	max-width:90%;
-}
-
-#personal_image {
-	position: absolute;
-	right: 5%;
-	top: 5%;
-	bottom:5%;
-}
-
-#personal_photos {
-	position: absolute;
-	left: 5%;
-	top: 30px;
-}
-
-#personal_posters {
-	position: absolute;
-	right: 5%;
-	top: 30px;
-}
-
-#personal_games {
-	position: absolute;
-	left: 5%;
-	top: 30px;
-}
-
-#personal_footprints {
-	position: absolute;
-	right: 5%;
-	top: 30px;
-}
-
-.intro_text_left {
-	padding: 10px 400px 10px 50px;
-	font-size: 30px;
-	line-height: 50px;
-}
-
-.intro_text_right {
-	padding: 10px 50px 10px 400px;
-	font-size: 30px;
-	line-height: 50px;
+	list-style: none;
+	width: 50%;
+	display: inline;
 }
 
 
