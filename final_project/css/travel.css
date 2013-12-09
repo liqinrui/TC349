@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+    padding-bottom: 40px;
+	background-image: url("img/bg.png");
+	background-repeat: repeat;
+	}
+
+a:not(.btn) {
+	color: #00699E;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	transition: 300ms;
+}
+
+a:hover:not(.btn),
+a:active:not(.btn) {
+	color: #9E0000;
+	text-decoration: none;
+}
+
+
+/* = Components
+----------------------------------------------- */
+
+.main {
+	position: relative;
+	width: 100%;	
+	border-top: #E6E6E6 solid 10px;
+	}
+
+.nav-maps {
+	width: 230px;
+	margin: auto;
+	margin-left:100px;
+}
+
+
+/* = Map Effects 
+----------------------------------------------- */
+
+#map {
+	height: 800px;
+	width: 100%;
+	background-color: '#63ACDC',
+	background-size: cover;
+}
+
+@-webkit-keyframes map-in {
+	0% {
+		-webkit-filter: grayscale(0.8) blur(5px);
+	}
+	50% {
+		-webkit-filter: grayscale(0.3) blur(3px);
+	}
+	100% { 
+		-webkit-filter: none;
+	}
+}
+

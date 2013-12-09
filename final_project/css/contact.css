@@ -1,0 +1,29 @@
+header {
+	border-bottom: #e6e6e6 solid 10px;
+}
+.contact_info {
+	height: 400px;
+	width: 85%;
+	position: relative;
+	left: 7.5%;
+	background-color: #e6e6e6;
+	margin-top: 5px;
+}
+
+.social_media {
+	display: inline;
+	list-style: none;
+}
+
+table, tr, td {
+	padding: 50px 80px 50px 50px;
+}
+
+table {
+	margin-left: 80px;
+}
+
+td {
+	text-align: center;
+	font-size: 30px;
+}

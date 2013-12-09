@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Travel_World</title>
+<link href="css/bootstrap_global.min.css" rel="stylesheet" media="screen" />
+<link href="css/bootstrap_responsive.min.css" rel="stylesheet" media="screen" />
+<link href="css/jquery-jvectormap-1.2.2.css" rel="stylesheet" media="screen" />
+<link href="css/main.css" rel="stylesheet">
+<link href="css/travel.css" rel="stylesheet" media="screen">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/pjax.js"></script>
+<script type="text/javascript" src="js/jquery-jvectormap-1.2.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-jvectormap-cn-merc-en.js"></script>
+<script type="text/javascript" src="jquery-jvectormap-us-merc-en.js"></script>
+<script type="text/javascript" src="js/jquery-jvectormap-world-mill-en.js"></script>
+<style>#travel_dropdown{color: #ffffff;}</style>
+</head>
+<body>
+<!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper" data-spy="affix" data-offset-top="0">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html">Qinrui Li</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse navbarbtns">
+              <ul class="nav">
+                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="portfolio.html#photography">Photography</a></li>
+                    <li><a href="portfolio.html#posters">Posters</a></li>
+                    <li><a href="portfolio.html#games">Games</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="travel_dropdown">Travel <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="travel_china.html">China</a></li>
+                    <li><a href="travel_usa.html">USA</a></li>
+                    <li><a href="travel_world.html">World</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+    
+    <header>
+    		<img src="img/slide1.jpg"></img>
+    </header>
+
+<article id="content" class="main">	    
+	<nav class="main-nav">
+        <ul class="nav nav-tabs nav-maps">
+            
+            <li><a id="link-to-china" href="travel_china.html" title="switch to china map" pjax-title="Travel_China" data-toggle="tooltip">China</a></li>
+            <li><a id="link-to-usa" href="travel_usa.html" title="switch to usa map" pjax-title="Travel_USA" data-toggle="tooltip">USA</a></li>
+            <li class="active">
+            	<a id="link-to-world" href="javascript:;" data-toggle="tooltip">World</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+    	<div class="row">      
+        	<div class="span12">  
+                <div id="map"></div>
+                <script type="text/javascript" src="js/map_world.js"></script>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script type="text/javascript">	
+	$('#link-to-world').hover(function(){
+		$('#link-to-world').tooltip('show');
+	});
+	
+	$('#link-to-china').hover(function(){
+		$('#link-to-china').tooltip('show');
+	});
+	
+	$('#link-to-america').hover(function(){
+		$('#link-to-america').tooltip('show');
+	});
+	</script>
+    
+</article>
+
+    <footer>
+	</footer>
+
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

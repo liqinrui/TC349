@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="The homepage of Qinrui Li">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>#portfolio_dropdown{color: #ffffff;}</style>
+  </head>
+  <body>
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper" data-spy="affix" data-offset-top="0">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html">Qinrui Li</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse navbarbtns">
+              <ul class="nav">
+                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="portfolio_dropdown">Portfolio <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="portfolio.html#photography">Photography</a></li>
+                    <li><a href="portfolio.html#posters">Posters</a></li>
+                    <li><a href="portfolio.html#games">Games</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travel <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="travel_china.html">China</a></li>
+                    <li><a href="travel_usa.html">USA</a></li>
+                    <li><a href="travel_world.html">World</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+    
+    		<header>
+    			<img src="img/slide1.jpg"></img>
+    		</header>
+    		
+    		<nav data-spy="affix" data-offset-top="500">
+				<ul>
+					<li class="port_subnav"><a href="#photography">Photography</a></li>
+					<li class="port_subnav"><a href="#games">Posters</a></li>
+					<li class="port_subnav"><a href="#posters">Games</a></li>
+				</ul>
+			</nav>
+    
+			<article>
+			<section id="photography">
+				<h3>Photography</h3>
+				<ul class="gallery">
+					<li><img alt="photography1" src="img/photo1_s.jpg"></li>
+					<li><img alt="photography2" src="img/photo2_s.jpg"></li>
+					<li><img alt="photography3" src="img/photo3_s.jpg"></li>
+					<li><img alt="photography4" src="img/photo4_s.jpg"></li>
+					<li><img alt="photography5" src="img/photo5_s.jpg"></li>
+					<li><img alt="photography6" src="img/photo6_s.jpg"></li>
+					<li><img alt="photography7" src="img/photo7_s.jpg"></li>
+					<li><img alt="photography8" src="img/photo8_s.jpg"></li>
+				</ul>
+			</section>
+			<section id="posters">
+				<h3>Posters</h3>
+				<ul class="gallery">
+					<li><img alt="poster1" src="img/poster1_s.jpg"></li>
+					<li><img alt="poster2" src="img/poster2_s.jpg"></li>
+					<li><img alt="poster3" src="img/poster3_s.jpg"></li>
+				</ul>
+			</section>
+			<section id="games">
+				<h3>Games</h3>
+				<ul class="gallery">
+					<li><a href="snakes.html"><img alt="snakes" img src="img/snakes.jpg"></a></li>
+					<li><a href="fishy.html"><img alt="fishy" img src="img/fishy.jpg"></a></li>
+				</ul>
+			</section>
+		</article>
+    
+    <footer>
+	</footer>
+    
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+	<script src="js/skrollr.min.js"></script>
+	<script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
