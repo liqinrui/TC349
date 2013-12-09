@@ -100,10 +100,15 @@ textarea {
 
 header {
 	background: url(../img/bg.jpg);
-	height:420px;
 	padding: 0;
-	margin-bottom: 100px;
+	margin-top: 0px;
+    margin-bottom: 50px;
 	border-bottom: #E6E6E6 solid 10px;
+}
+
+#banner {
+	margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h1,h2,p {
@@ -135,7 +140,7 @@ h2 {
 nav {
 	float: left;
 	width: 120px;
-	padding-left: 120px;
+	padding-left: 10%;;
 	font-size: 20px;
 }
 

@@ -49,24 +49,35 @@ a.btn {
 }
 
 .personal {
-	height: 400px;
+	height: 100%;
 	width: 85%;
 	position: relative;
 	left: 7.5%;
 	background-color: #e6e6e6;
 	margin-top: 0px;
 	border-bottom: #ccc solid 10px;
+	float: left;
 }
 
 .personal_intro {
 	list-style: none;
 	display: inline;
+	float: left;
+}
+
+.personal_intro li {
+	float: left;
+}
+
+.personal_intro img {
+	max-width:90%;
 }
 
 #personal_image {
 	position: absolute;
 	right: 5%;
-	top: 30px;
+	top: 5%;
+	bottom:5%;
 }
 
 #personal_photos {
@@ -104,6 +115,7 @@ a.btn {
 	font-size: 30px;
 	line-height: 50px;
 }
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -150,10 +162,6 @@ a.btn {
 @media (min-width: 768px) {
 
   /* Remove the edge padding needed for mobile */
-  .marketing {
-    padding-left: 0;
-    padding-right: 0;
-  }
 
   /* Navbar positioning foo */
   .navbar-wrapper {

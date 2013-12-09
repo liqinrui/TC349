@@ -1,29 +1,48 @@
 header {
 	border-bottom: #e6e6e6 solid 10px;
+	margin-top: 0px;
+    margin-bottom: 15px;
 }
+
+#banner {
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .contact_info {
 	height: 400px;
 	width: 85%;
 	position: relative;
 	left: 7.5%;
 	background-color: #e6e6e6;
-	margin-top: 5px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding-top: 50px;
 }
 
-.social_media {
-	display: inline;
+.contact_lkd {
+	float: left;
 	list-style: none;
+	margin-left: 10%;
 }
 
-table, tr, td {
-	padding: 50px 80px 50px 50px;
+.contact_fb {
+	float: left;
+	list-style: none;
+	margin-left: 10%;
 }
 
-table {
-	margin-left: 80px;
+.contact_yt {
+	float: left;
+	list-style: none;
+	margin-left: 10%;
 }
 
-td {
-	text-align: center;
+.contact_name {
+	padding-left: 10%;
 	font-size: 30px;
+}
+
+li {
+		padding-bottom: 30px;
 }
