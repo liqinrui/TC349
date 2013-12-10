@@ -153,12 +153,13 @@ nav {
 	}
 
 nav.affix{
-	top: 50px;
+	top: 5%;
+	left: 5%;
 }
 
 article {
-	margin-top: 100px;
-	margin-left: 300px;
+	margin-top: 5%;
+	margin-left: 30%;
 }
 
 .gallery li {
@@ -173,8 +174,9 @@ article {
 	border-color: #636466;
 }
 
-footer {
-	border-top: #E6E6E6 solid 10px;
+.sidenav {
+	display: inline;
+	float: left;
 }
 
 /* ==========================================================================

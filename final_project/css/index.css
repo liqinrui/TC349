@@ -59,12 +59,22 @@ a.btn {
 .personal ul {
 	padding-left: 5%;
 	padding-right: 5%;
-	width: 90%;
+	width: 85%;
+	list-style: none
 }
-.personal_intro li {
+
+.personal li {
 	list-style: none;
-	width: 50%;
-	display: inline;
+}
+
+.personal_text {
+	font-size: 30px;
+	line-height: 120%;
+	padding-top: 10%;
+}
+
+.personal img {
+	margin-top: 10px;
 }
 
 
