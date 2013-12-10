@@ -137,10 +137,8 @@ h2 {
 	transition: background-image 1s;
 }
 
-nav {
-	float: left;
+/*nav {
 	width: 120px;
-	padding-left: 10%;;
 	font-size: 20px;
 }
 
@@ -154,12 +152,11 @@ nav {
 
 nav.affix{
 	top: 5%;
-	left: 5%;
 }
+*/
 
 article {
-	margin-top: 5%;
-	margin-left: 30%;
+	margin-left: 5%;
 }
 
 .gallery li {
@@ -174,10 +171,6 @@ article {
 	border-color: #636466;
 }
 
-.sidenav {
-	display: inline;
-	float: left;
-}
 
 /* ==========================================================================
    Helper classes
